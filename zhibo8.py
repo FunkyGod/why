@@ -93,7 +93,7 @@ class zhibo8:
             print(e.code)
             print('未获取到soup对象')
             sys.exit()
-            
+           
 if __name__ =='__main__':
     my8 =zhibo8()
     my8.get_info()
